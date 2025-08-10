@@ -29,8 +29,8 @@ This repository contains the design, fabrication, and testing details of a stude
 
 ## Getting Started
 1. Clone the repository:
-   git clone https://github.com/<your-username>/high-power-rocket.git
-   cd high-power-rocket
+   git clone https://github.com/Venkatesh4049/High-Power-Rocket.git
+   cd High-Power-Rocket
 
 2. Open `High_Power_Rocket.pdf` for the complete project documentation.
 
