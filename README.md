@@ -1,112 +1,50 @@
-```markdown
 # High-Power Rocket Project
 
 **Design and Development of a High-Power Rocket Using Composite Materials**
 
-This repository documents the design, fabrication, and testing of a student-built high-power rocket using kraft-phenolic composite materials and a KNO₃–glucose style solid propellant (research/educational context). It includes CAD models, simulation files, fabrication instructions, test results, and electronics/avionics resources.
-
-> **Important:** This project is for educational and research purposes only. Rocket motors, propellants, and ejection charges are potentially dangerous and may be restricted or illegal in your jurisdiction. Do not attempt propellant manufacture, motor construction, or launches without appropriate training, permissions, and safety procedures.
-
----
-
-## Repository structure
-```
-
-.
-├── README.md
-├── LICENSE
-├── High\_Power\_Rocket.pdf
-├── CAD/
-│   ├── solidworks/
-│   └── blender/
-├── Simulations/
-│   ├── OpenRocket/
-│   └── OpenMotor/
-├── Fabrication/
-│   ├── build\_instructions.md
-│   └── material\_specs/
-├── Propulsion/
-│   ├── nozzle\_calcs/
-│   └── motor\_data/
-├── Recovery/
-│   ├── parachute\_patterns/
-│   └── ejection\_system/
-├── Electronics/
-│   ├── schematics/
-│   └── firmware/
-├── Testing/
-│   ├── static\_tests/
-│   └── flight\_data/
-└── docs/
-└── diagrams/
-
-````
-
----
+This repository contains the design, fabrication, and testing details of a student-built high-power rocket made from kraft-phenolic composite materials and powered by a potassium nitrate–glucose solid propellant. The project demonstrates that affordable, sustainable materials can achieve high-performance results in amateur rocketry.
 
 ## Features
-- Kraft-phenolic composite structural components (body, fins, nose cone)
-- Simulation files for aerodynamic & motor performance (OpenRocket, OpenMotor)
-- Nozzle design and motor characterization (documentation only)
-- Recovery system design (dual-deployment concept, parachute patterns)
-- Avionics: avionics bay layout, sensor list, firmware and data-logging examples
-- Testing logs: static test results and validation notes
+- Kraft-phenolic composite body, fins, and nose cone for strength, thermal resistance, and low cost
+- Custom solid propellant (KNO₃–glucose) with optimized grain geometry
+- De Laval nozzle design for efficient thrust
+- Parachute recovery system with ejection charge triggered at apogee
+- Avionics bay with sensors, telemetry, and data logging
+- Aerodynamic and propulsion simulations using OpenRocket and OpenMotor
+- Static ground tests and subsystem validation
 
----
+## Repository Structure
+.
+├── README.md                 # Project overview  
+├── LICENSE                    # License file  
+├── High_Power_Rocket.pdf      # Full project report  
+├── CAD/                       # 3D models and drawings  
+├── Simulations/               # OpenRocket (.ork) and OpenMotor files  
+├── Fabrication/               # Build instructions, material specs  
+├── Propulsion/                # Propellant design and nozzle calculations  
+├── Recovery/                  # Parachute design, ejection system  
+├── Electronics/               # Avionics schematics and firmware  
+├── Testing/                   # Static tests, flight data  
+└── docs/                      # Diagrams, additional documentation  
 
-## Quick start
+## Getting Started
 1. Clone the repository:
-   ```bash
    git clone https://github.com/<your-username>/high-power-rocket.git
    cd high-power-rocket
-````
 
-2. Read the full project report:
+2. Open `High_Power_Rocket.pdf` for the complete project documentation.
 
-   * `High_Power_Rocket.pdf`
-3. Open simulation files:
+3. Use OpenRocket and OpenMotor to view simulation files in `/Simulations/`.
 
-   * Load `.ork` files from `Simulations/OpenRocket/` in **OpenRocket**
-   * Load motor data in `Simulations/OpenMotor/`
-4. Inspect CAD:
+4. Explore CAD designs in `/CAD/` and build instructions in `/Fabrication/`.
 
-   * `CAD/solidworks/` or `CAD/blender/` contain 3D models and exports.
-5. Review fabrication steps:
-
-   * `Fabrication/build_instructions.md` (contains tooling, tolerances, and finish steps)
-
----
-
-## Safety & legal
-
-* Follow national/regional laws for rocket motors and launches.
-* Perform propellant or motor work only under qualified supervision & at approved facilities.
-* Wear appropriate PPE and follow documented safety protocols for static tests.
-
----
-
-## Contributing
-
-1. Fork the repo and create a feature branch.
-2. Add or update files (keep file naming consistent).
-3. Submit a PR with a clear description of changes and test evidence (if applicable).
-
----
+## Safety & Legal Notice
+This project is for educational purposes only.  
+Follow all local regulations for propellant handling, motor building, and rocket launches.  
+Always use approved testing and launch facilities with appropriate safety measures.
 
 ## License
+Released under the MIT License. See `LICENSE` for details.
 
-This project is released under the **MIT License**. See `LICENSE` for details.
-
----
-
-## Authors / Contact
-
-Project team: Venkatesh A M and collaborators (see `High_Power_Rocket.pdf` for full credits).
-For repo issues or contribution requests, open an issue or PR on GitHub.
-
----
-
-```
-
-
-```
+## Credits
+Project by Venkatesh A M and team. See `High_Power_Rocket.pdf` for full acknowledgments.
